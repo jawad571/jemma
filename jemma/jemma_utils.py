@@ -154,11 +154,10 @@ symbols = {
     'ELLIPSIS':  '...', 
 }
 
-
-projects_csv = "./jemma_datasets/metatdata/Jemma_Metadata_Projects.csv"
-packages_csv = "./jemma_datasets/metatdata/Jemma_Metadata_Packages.csv"
-classes_csv  = "./jemma_datasets/metatdata/Jemma_Metadata_Classes.csv"
-methods_csv  = "./jemma_datasets/metatdata/Jemma_Metadata_Methods.csv"
+projects_csv = "./jemma_datasets/metadata/Jemma_Metadata_Projects.csv"
+packages_csv = "./jemma_datasets/metadata/Jemma_Metadata_Packages.csv"
+classes_csv  = "./jemma_datasets/metadata/Jemma_Metadata_Classes.csv"
+methods_csv  = "./jemma_datasets/metadata/Jemma_Metadata_Methods.csv"
 
 properties = { 
     "RSLK": "./jemma_datasets/properties/Jemma_Properties_Methods_RSLK.csv",
