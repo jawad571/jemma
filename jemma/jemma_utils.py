@@ -781,6 +781,7 @@ def get_properties(property, methods):
     """
 
     df_m = pd.DataFrame({'method_id': methods})
+    print(properties.get(property, None))
     df_p = pd.read_csv(properties.get(property, None), header=0)
     df_f = pd.merge(df_p, df_m, on="method_id")
 
@@ -825,7 +826,9 @@ def get_representations(representation, methods):
     """
 
     df_m = pd.DataFrame({'method_id': methods})
-    df_r = pd.read_csv(properties.get(representation, None), header=0)
+    print(representation)
+    print(representations.get(representation, None))
+    df_r = pd.read_csv(representations.get(representation, None), header=0)
     df_f = pd.merge(df_r, df_m, on="method_id")
 
     return df_f
